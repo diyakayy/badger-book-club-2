@@ -20,24 +20,19 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-12 gap-12 items-start">
-            {/* Left: Headline */}
-            <div className="lg:col-span-4">
-              <h1 className="font-serif text-6xl md:text-7xl lg:text-8xl leading-[0.95] tracking-tight">
-                Join Our Book<br />Community
+            <div className="flex items-center gap-6 lg:gap-12">            {/* Left: Headline */}
+                <div>                  <h1 className="font-serif text-xl md:text-2xl whitespace-nowrap flex-shrink-0">                Join Our Book<br />Community
               </h1>
             </div>
 
             {/* Center: Description */}
-            <div className="lg:col-span-5 flex items-center">
-              <p className="text-lg md:text-xl leading-relaxed text-charcoal/80">
+                <div className="flex-1">              <p className="text-lg md:text-xl leading-relaxed text-charcoal/80">
                 Join our Badger Book Club and immerse yourself in a vibrant reading community where diverse perspectives enhance your appreciation of every book!
               </p>
             </div>
 
             {/* Right: CTA */}
-            <div className="lg:col-span-3 flex items-start justify-end">
-              <Button href="/join">Join the Club</Button>
+                <div className="flex-1 flex items-center justify-end">              <Button href="/join">Join the Club</Button>
             </div>
           </div>
         </div>
