@@ -19,7 +19,7 @@ const config: Config = {
         sans: ['var(--font-source-sans)'],
       },
       animation: {
-        marquee: "marquee 40s linear infinite",
+        marquee: "marquee 25s linear infinite",
       },
       keyframes: {
         marquee: {
