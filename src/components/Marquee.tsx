@@ -6,7 +6,7 @@ export default function Marquee() {
       <div className="flex animate-marquee whitespace-nowrap">
         {/* First set */}
         <div className="flex items-center">
-          <span className="font-serif text-6xl md:text-8xl lg:text-9xl font-bold tracking-tight px-8">
+          <span className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight px-8">
             {text}
           </span>
           <svg className="w-12 h-12 md:w-16 md:h-16 mx-8 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
@@ -16,7 +16,7 @@ export default function Marquee() {
         
         {/* Second set (for seamless loop) */}
         <div className="flex items-center">
-          <span className="font-serif text-6xl md:text-8xl lg:text-9xl font-bold tracking-tight px-8">
+          <span className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight px-8">
             {text}
           </span>
           <svg className="w-12 h-12 md:w-16 md:h-16 mx-8 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
