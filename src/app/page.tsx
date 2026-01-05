@@ -26,7 +26,7 @@ export default function HomePage() {
             </div>
 
             {/* Center: Description */}
-                <div className="flex-1">              <p className="text-lg md:text-xl leading-relaxed text-charcoal/80">
+                <div className="flex-1 flex flex-col items-center text-center">              <p className="text-lg md:text-xl leading-relaxed text-charcoal/80 max-w-sm">
                 Join our Badger Book Club and immerse yourself in a vibrant reading community where diverse perspectives enhance your appreciation of every book!
               </p>
             </div>
@@ -127,7 +127,7 @@ export default function HomePage() {
             {/* Contact Info */}
             <div>
               <h3 className="font-serif text-2xl mb-4">Contact Information</h3>
-              <div className="space-y-4 text-charcoal/80">
+              <div className="space-y-4 text-charcoal/80 max-w-sm">
                 <div className="flex items-start gap-3">
                   <svg className="w-5 h-5 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
